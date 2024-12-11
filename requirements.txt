@@ -1,0 +1,9 @@
+git+https://github.com/brendan-w/python-OBD.git#egg=obd
+pyserial==3.5
+psutil==5.9.6
+python-dateutil==2.8.2
+wheel==0.41.3
+setuptools==69.0.2
+hidapi==0.14.0  # For Mac HID protocol
+pyusb==1.2.1    # For Windows USB access
+libusb==1.0.24  # Required by pyusb

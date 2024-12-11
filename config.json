@@ -1,0 +1,32 @@
+{
+    "max_temp": 60,
+    "max_voltage": 240,
+    "min_voltage": 180,
+    "max_current": 50,
+    "max_voltage_diff": 5,
+    "temp_delay": 10,
+    "voltage_delay": 10,
+    "voltage_diff_delay": 10,
+    "current_delay": 10,
+    "obd_port": "/dev/tty.OBDII",
+    "relay_protocol": "serial",
+    "relay_baud_rate": 9600,
+    "relay_commands": {
+        "relay1_on": ["0xA0", "0x01", "0x01", "0xA2"],
+        "relay1_off": ["0xA0", "0x01", "0x00", "0xA1"],
+        "relay2_on": ["0xA0", "0x02", "0x01", "0xA3"],
+        "relay2_off": ["0xA0", "0x02", "0x00", "0xA2"],
+        "status_query": ["0xFF"]
+    },
+    "monitoring_interval": 1,
+    "discharge_resistor_ohms": 250,
+    "use_discharge_resistor": true,
+    "use_constant_current": false,
+    "constant_current_amps": 10.0,
+    "capacity_calculation_interval": 5,
+    "min_current_threshold": 0.1,
+    "cycle_end_current_threshold": 0.5,
+    "cycle_data_file": "cycle_capacity_data.json",
+    "monitoring_state": "stopped",
+    "monitoring_pid": null
+} 

@@ -1,0 +1,102 @@
+M-Series Mac Development Rules
+
+1. Architecture Considerations
+   - ARM64 Native Development
+   - Rosetta 2 Compatibility
+   - Universal Binary Support
+   - Native Performance Optimization
+
+2. Hardware Access
+   - USB Device Detection
+     * IOKit Integration
+     * HID Protocol Support
+     * Device Enumeration
+     * Connection Management
+   
+   - Permission Management
+     * Security Framework Integration
+     * User Authorization
+     * Privacy Controls
+     * Access Rights
+
+   - Error Handling
+     * Device Disconnection
+     * Permission Denied
+     * Access Timeout
+     * Recovery Procedures
+
+3. Development Environment
+   - Tool Requirements
+     * Native ARM64 Tools
+     * Universal Binary Support
+     * Development Frameworks
+     * Debug Tools
+
+   - Library Dependencies
+     * Architecture Compatibility
+     * Native vs Universal
+     * Version Management
+     * Conflict Resolution
+
+   - Build Process
+     * Architecture-specific Builds
+     * Universal Binary Creation
+     * Optimization Flags
+     * Debug Symbols
+
+4. Testing and Validation
+   - Hardware Testing
+     * USB Connection Testing
+     * Permission Verification
+     * Performance Benchmarks
+     * Power Usage Analysis
+
+   - Security Testing
+     * Access Control
+     * Permission Management
+     * Data Protection
+     * Privacy Compliance
+
+   - Performance Testing
+     * ARM64 Optimization
+     * Power Efficiency
+     * Resource Usage
+     * Response Times
+
+5. Deployment and Maintenance
+   - Installation
+     * Architecture Detection
+     * Dependency Resolution
+     * Permission Setup
+     * Security Configuration
+
+   - Updates
+     * Architecture-specific Updates
+     * Security Patches
+     * Permission Changes
+     * Recovery Procedures
+
+   - Monitoring
+     * Hardware Status
+     * Performance Metrics
+     * Error Logging
+     * Usage Analytics
+
+6. Documentation
+   - Setup Instructions
+     * System Requirements
+     * Installation Steps
+     * Permission Setup
+     * Troubleshooting
+
+   - Development Guide
+     * Architecture Notes
+     * API References
+     * Best Practices
+     * Known Issues
+
+   - User Guide
+     * Usage Instructions
+     * Security Notes
+     * Error Messages
+     * Support Contact 
