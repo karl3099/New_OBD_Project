@@ -22,7 +22,7 @@ A Python-based control system for NOYITO USB relay modules, supporting both Mac 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/New_OBD_Project.git
+git clone https://github.com/karl3099/New_OBD_Project.git
 cd New_OBD_Project
 ```
 
@@ -46,17 +46,17 @@ python3 install_ch340_mac.py
 
 ### Simple HID Control
 ```bash
-python3 relay_hid_simple.py
+python3 src/relay_hid_simple.py
 ```
 
 ### Cross-Platform Control
 ```bash
-python3 relay_unified.py
+python3 src/relay_unified.py
 ```
 
 ### Serial Protocol Control
 ```bash
-python3 relay_serial_test.py
+python3 src/relay_serial_test.py
 ```
 
 ## Project Structure
